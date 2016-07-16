@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb1588a8-8f97-4561-bf31-6416d36233f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generator-pypi-master.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/MANIFEST.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/dotfiles/dot_gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/licenses/ApacheV2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/licenses/MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/package/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/package/core.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/package/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/setup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/setup.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="generator-pypi-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generators/app/templates/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
@@ -153,12 +124,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="138" selection-start-line="0" selection-start-column="138" selection-end-line="0" selection-end-column="138" />
+              <first_editor vertical-scroll-proportion="0.019417476">
+                <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -188,12 +159,12 @@
         <option value="$PROJECT_DIR$/generators/app/templates/requirements.txt" />
         <option value="$PROJECT_DIR$/generators/app/templates/setup.sh" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/generators/app/templates/licenses/MIT" />
         <option value="$PROJECT_DIR$/generators/app/templates/licenses/ApacheV2" />
         <option value="$PROJECT_DIR$/generators/app/templates/setup.py" />
         <option value="$PROJECT_DIR$/generators/app/index.js" />
         <option value="$PROJECT_DIR$/generators/app/templates/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -855,12 +826,12 @@
       <created>1468707894805</created>
       <option name="number" value="Default" />
       <updated>1468707894805</updated>
-      <workItem from="1468707898054" duration="5298000" />
+      <workItem from="1468707898054" duration="5466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5298000" />
+    <option name="totallyTimeSpent" value="5466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="23" width="810" height="873" extended-state="0" />
@@ -950,23 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="138" selection-start-line="0" selection-start-column="138" selection-end-line="0" selection-end-column="138" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generators/app/templates/licenses/ApacheV2">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1020,6 +974,23 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.27184466">
             <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.019417476">
+            <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

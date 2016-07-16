@@ -1,4 +1,4 @@
-[![NPM version][npm-image]][npm-url] <!--[![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]-->
+[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 # generator-pypi-master 
 
@@ -29,7 +29,7 @@ yo pypi-master
 
 ## License
 
-MIT © [mijdavis2](mdavis.io)
+MIT © [mijdavis2](https://mdavis.io)
 
 
 [npm-image]: https://badge.fury.io/js/generator-pypi-master.svg
