@@ -1,6 +1,6 @@
 {
   "name": "generator-pypi-master",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A pypi generator for humans",
   "homepage": "github.com/mijdavis2/generator-pypi-master",
   "author": {
