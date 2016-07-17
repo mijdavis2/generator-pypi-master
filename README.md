@@ -39,7 +39,7 @@ package
 |    |-- ISSUE_TEMPLATE.md
 |    |-- PULL_REQUEST_TEMPLATE.md
 |-- package
-|    |-- __init.py__
+|    |-- __init__.py
 |    |-- core.py
 |    |-- tests
 |        |-- __init__.py
