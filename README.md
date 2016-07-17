@@ -34,6 +34,10 @@ yo pypi-master
 
 ```
 package
+|-- .github
+|    |-- CONTRIBUTING.md
+|    |-- ISSUE_TEMPLATE.md
+|    |-- PULL_REQUEST_TEMPLATE.md
 |-- package
 |    |-- __init.py__
 |    |-- core.py
