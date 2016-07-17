@@ -4,6 +4,9 @@
     <ghcPath>/usr/local/bin/ghc</ghcPath>
     <cabalPath>/usr/local/bin/cabal</cabalPath>
   </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="JSX" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>

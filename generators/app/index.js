@@ -7,22 +7,29 @@ module.exports = yeoman.Base.extend({
   _defaultYear: function() {
     return (new Date).getFullYear();
   },
+  constructor: function () {
+    yeoman.Base.apply(this, arguments);
+    this.log(yosay(
+        chalk.red('Welcome!') + '\n' +
+        chalk.yellow('You\'re using the definitive generator for scaffolding a pypi package!')
+    ));
+  },
   prompting: function () {
     return this.prompt([{
       type    : 'input',
       name    : 'packageName',
-      message : 'Your project name',
+      message : 'Your project name: ',
       default : this.appname // Default to current folder name
       },
       {
         type    : 'input',
         name    : 'packageDescription',
-        message : 'A description of your package (haha)'
+        message : 'A description of your package: '
       },
       {
         type    : 'input',
         name    : 'username',
-        message : 'Your github username'
+        message : 'Your github username: '
       },
       {
       type    : 'list',
