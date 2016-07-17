@@ -33,15 +33,15 @@ yo pypi-master
 ## Generated File Tree
 
 ```
-package
-|-- .github
+package/
+|-- .github/
 |    |-- CONTRIBUTING.md
 |    |-- ISSUE_TEMPLATE.md
 |    |-- PULL_REQUEST_TEMPLATE.md
-|-- package
+|-- package/
 |    |-- __init__.py
 |    |-- core.py
-|    |-- tests
+|    |-- tests/
 |        |-- __init__.py
 |-- LICENSE 
 |-- MANIFEST.in
