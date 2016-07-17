@@ -2,7 +2,7 @@
 
 # generator-pypi-master 
 
-> A pypi generator for humans
+> A complete pypi package generator
 
 Generate a new custom pypi package in seconds.
 
@@ -25,6 +25,23 @@ Then generate your new project:
 
 ```bash
 yo pypi-master
+```
+
+## Generated File Tree
+
+```
+package
+|-- package
+|    |-- __init.py__
+|    |-- core.py
+|    |-- tests
+|        |-- __init__.py
+|-- LICENSE 
+|-- MANIFEST.in
+|-- README.md
+|-- requirements.txt
+|-- setup.py 
+|-- setup.sh
 ```
 
 ## License
