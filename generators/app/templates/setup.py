@@ -12,7 +12,10 @@ setup(
     long_description=readme(),
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'Programming Language :: Python :: <%= reqMajor %>.<%= reqMinor %>'
+        'Programming Language :: Python',
+        'Programming Language :: Python :: <%= reqMajor %>',
+        'Programming Language :: Python :: <%= reqMajor %>.<%= reqMinor %>',
+        'Topic :: Software Development :: Libraries :: Python Modules'
     ],
     url='http://github.com/<%= username %>/<%= packageName %>',
     author='<%= username %>',

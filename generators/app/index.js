@@ -80,7 +80,12 @@ module.exports = yeoman.Base.extend({
     ]).then(function (answers) {
       this.log('package name', answers.packageName);
       this.log('python version', answers.pythonVersion);
-      this.answers = answers
+      this.answers = answers;
+      if (this.answers.license) {
+        this.answers.includeLicense = "include LICENSE"
+      } else {
+        this.answers.includeLicense = ""
+      }
     }.bind(this));
   },
 
@@ -96,7 +101,8 @@ module.exports = yeoman.Base.extend({
         username: this.answers.username,
         packageDescription: this.answers.packageDescription,
         license: this.answers.license,
-        year: this._defaultYear()
+        year: this._defaultYear(),
+        includeLicense: this.answers.includeLicense
       }
     );
     this.fs.copyTpl(
