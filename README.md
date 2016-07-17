@@ -4,13 +4,16 @@
 
 > A complete pypi package generator
 
+![Generator example](assets/yeoman-example.png)
+
 Generate a new custom pypi package in seconds.
 
-There are other pypi generators out there, 
-but they are either too minimal or don't do anything.
-This one creates a nice standard pypi package in a very user friendly way.
+There are other pypi generators out there 
+but they are either incomplete or do literally nothing.
+This one creates a nice customized standard pypi package 
+in a user friendly way.
 
-BONUS: includes a setup script for easy virtualenv setup.
+**BONUS**: includes a setup script for easy virtualenv setup.
 
 ## Installation
 
