@@ -17,7 +17,7 @@ setup(
         'Programming Language :: Python :: <%= reqMajor %>.<%= reqMinor %>',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
-    url='http://github.com/<%= username %>/<%= packageName %>',
+    url='https://github.com/<%= username %>/<%= packageName %>',
     author='<%= username %>',
     # author_email='<%= username %>@gmail.com',
     license=<%= license %>,

@@ -2,13 +2,17 @@
 
 A pypi package.
 
-# Install
+## Requirements
+
+- Python <%= reqMajor %>.<%= reqMinor %>,<%= reqPatch %>
+
+## Install
 
 ```
 pip install git@github.com:<%= username %>/<%= packageName %>.git#egg=<%= packageName %>
 ```
 
-# Develop
+## Develop
 
 This package comes with [mijdavis2's](httpe://github.com/mijdavis2) setup.sh script which swiftly
 creates a virtualenv without the hassle of virtualenv wrapper:
@@ -17,7 +21,7 @@ creates a virtualenv without the hassle of virtualenv wrapper:
 . ./setup.sh -p python<%= reqMajor %>.<%= reqMinor %>,<%= reqPatch %>
 ```
 
-# License
+## License
 
 [<%= license %>](LICENSE) <%= year %> <%= username %>
 

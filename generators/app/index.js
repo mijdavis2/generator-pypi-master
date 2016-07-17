@@ -107,9 +107,17 @@ module.exports = yeoman.Base.extend({
     );
     this.fs.copyTpl(
       this.templatePath('package/*'),
-      this.destinationPath('package/'),
+      this.destinationPath(this.answers.packageName + '/'),
       {
         packageName: this.answers.packageName
+      }
+    );
+    this.fs.copyTpl(
+      this.templatePath('dot_github/*'),
+      this.destinationPath('.github/'),
+      {
+        packageName: this.answers.packageName,
+        username: this.answers.username
       }
     );
     this.fs.copyTpl(
