@@ -12,6 +12,8 @@ but they are either incomplete or do literally nothing.
 This one creates a nice customized standard pypi package 
 in a user friendly way.
 
+For a simpler python project - check out [generator-pyboot](https://github.com/mijdavis2/generator-pyboot).
+
 **BONUS**: includes a setup script for easy virtualenv setup.
 
 ## Installation
