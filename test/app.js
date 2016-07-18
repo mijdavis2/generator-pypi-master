@@ -22,7 +22,7 @@ describe('generator-pypi-master:app', function () {
       .toPromise();
   });
 
-  it('creates files', function () {
+  it('creates files', function (done) {
     assert.file([
       'CHANGELOG.md',
       'MANIFEST.in',
@@ -32,6 +32,7 @@ describe('generator-pypi-master:app', function () {
       'setup.sh',
       'LICENSE'
     ]);
+    done();
   });
 });
 
@@ -48,7 +49,7 @@ describe('generator-pypi-master:app', function () {
       .toPromise();
   });
 
-  it('creates files', function () {
+  it('creates files', function (done) {
     assert.file([
       'CHANGELOG.md',
       'MANIFEST.in',
@@ -57,11 +58,13 @@ describe('generator-pypi-master:app', function () {
       'setup.py',
       'setup.sh'
     ]);
+    done();
   });
 
-  it('does not create files', function () {
+  it('does not create files', function (done) {
     assert.noFile([
       'LICENSE'
     ]);
+    done();
   });
 });
