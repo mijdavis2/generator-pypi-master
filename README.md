@@ -1,6 +1,8 @@
 [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Codacy Badge][codacy-image]][codacy-url]
 # generator-pypi-master 
 
+[![NPM](https://nodei.co/npm/generator-pypi-master.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/generator-pypi-master/)
+
 > A complete pypi package generator
 
 ![Generator example](assets/yeoman-example.png)
