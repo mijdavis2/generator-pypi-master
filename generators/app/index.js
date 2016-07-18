@@ -19,6 +19,12 @@ module.exports = yeoman.Base.extend({
   prompting: function () {
     return this.prompt([
       {
+        type    : 'input',
+        name    : 'useDirectory',
+        message : 'Target directory for new application (default is current directory): \n',
+        default : this.appname // Default to current folder name
+      },
+      {
         type   : 'input',
         name   : 'packageName',
         message: 'Your project name: ',
@@ -93,35 +99,39 @@ module.exports = yeoman.Base.extend({
   },
 
   writing: function () {
+    this._templateMap = {
+      packageName: this.answers.packageName,
+      reqMajor: this.answers.pythonVersion[0],
+      reqMinor: this.answers.pythonVersion[1],
+      reqPatch: this.answers.pythonVersion[2],
+      username: this.answers.username,
+      packageDescription: this.answers.packageDescription,
+      license: this.answers.license,
+      year: this._defaultYear(),
+      includeLicense: this.answers.includeLicense
+    };
+    if (this.answers.useDirectory !== this.appname) {
+      this.destinationRoot(this.answers.useDirectory);
+    }
     this.fs.copyTpl(
       this.templatePath('*'),
       this.destinationRoot(),
-      {
-        packageName: this.answers.packageName,
-        reqMajor: this.answers.pythonVersion[0],
-        reqMinor: this.answers.pythonVersion[1],
-        reqPatch: this.answers.pythonVersion[2],
-        username: this.answers.username,
-        packageDescription: this.answers.packageDescription,
-        license: this.answers.license,
-        year: this._defaultYear(),
-        includeLicense: this.answers.includeLicense
-      }
+      this._templateMap
     );
     this.fs.copyTpl(
       this.templatePath('package/*'),
       this.destinationPath(this.answers.packageName + '/'),
-      {
-        packageName: this.answers.packageName
-      }
+      this._templateMap
+    );
+    this.fs.copyTpl(
+      this.templatePath('tests/*'),
+      this.destinationPath('tests/'),
+      this._templateMap
     );
     this.fs.copyTpl(
       this.templatePath('dot_github/*'),
       this.destinationPath('.github/'),
-      {
-        packageName: this.answers.packageName,
-        username: this.answers.username
-      }
+      this._templateMap
     );
     this.fs.copyTpl(
       this.templatePath('dotfiles/dot_gitignore'),
@@ -131,10 +141,7 @@ module.exports = yeoman.Base.extend({
       this.fs.copyTpl(
         this.templatePath('licenses/' + this.answers.license),
         this.destinationPath('LICENSE'),
-        {
-          year: this._defaultYear(),
-          name: this.answers.username
-        }
+        this._templateMap
       );
     }
   },

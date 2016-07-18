@@ -21,6 +21,12 @@ creates a virtualenv without the hassle of virtualenv wrapper:
 . ./setup.sh -p python<%= reqMajor %>.<%= reqMinor %>,<%= reqPatch %>
 ```
 
+## Test
+
+```
+py.test -v -s --cov-report term-missing --cov=<%= packageName %> -r w tests
+```
+
 ## License
 
 [<%= license %>](LICENSE) <%= year %> <%= username %>
