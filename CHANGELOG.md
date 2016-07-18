@@ -1,5 +1,13 @@
 # Change Log
 
+## [Unreleased](https://github.com/mijdavis2/generator-pypi-master/tree/HEAD)
+
+[Full Changelog](https://github.com/mijdavis2/generator-pypi-master/compare/0.2.5...HEAD)
+
+**Merged pull requests:**
+
+- :new: Add build and coverage dotfiles to generator [\#2](https://github.com/mijdavis2/generator-pypi-master/pull/2) ([mijdavis2](https://github.com/mijdavis2))
+
 ## [0.2.5](https://github.com/mijdavis2/generator-pypi-master/tree/0.2.5) (2016-07-18)
 [Full Changelog](https://github.com/mijdavis2/generator-pypi-master/compare/0.2.4...0.2.5)
 
