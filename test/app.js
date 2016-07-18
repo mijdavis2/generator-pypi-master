@@ -10,7 +10,7 @@ var testPackageDescription = 'This is a test package';
 var testLicense = 'MIT';
 
 describe('generator-pypi-master:app', function () {
-  this.timeout(2000);
+  this.timeout(10000);
 
   before(function () {
     return helpers.run(path.join(__dirname, '../generators/app'))
@@ -39,7 +39,7 @@ describe('generator-pypi-master:app', function () {
 });
 
 describe('generator-pypi-master:app', function () {
-  this.timeout(2000);
+  this.timeout(10000);
 
   before(function () {
     return helpers.run(path.join(__dirname, '../generators/app'))
