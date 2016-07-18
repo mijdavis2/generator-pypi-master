@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb1588a8-8f97-4561-bf31-6416d36233f9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
     </list>
     <ignored path="generator-pypi-master.iws" />
@@ -73,8 +72,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.40449437">
-                <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <first_editor vertical-scroll-proportion="0.37921348">
+                <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -556,12 +555,12 @@
       <workItem from="1468777362433" duration="3416000" />
       <workItem from="1468782897970" duration="90000" />
       <workItem from="1468842713664" duration="5363000" />
-      <workItem from="1468848646291" duration="186000" />
+      <workItem from="1468848646291" duration="458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23058000" />
+    <option name="totallyTimeSpent" value="23330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1211" height="896" extended-state="0" />
@@ -1027,8 +1026,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.40449437">
-            <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <first_editor vertical-scroll-proportion="0.37921348">
+            <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             <folding />
           </first_editor>
           <second_editor />
