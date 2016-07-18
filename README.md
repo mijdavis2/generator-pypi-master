@@ -1,4 +1,4 @@
-[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
+[![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 # generator-pypi-master 
 
