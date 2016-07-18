@@ -1,4 +1,9 @@
-[![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Codacy Badge][codacy-image]][codacy-url]
+[![NPM version][npm-image]][npm-url] 
+[![Build status][travis-image]][travis-url] 
+[![Coverage percentage][coveralls-image]][coveralls-url]
+[![Dependency Status][daviddm-image]][daviddm-url] 
+[![Codacy Badge][codacy-image]][codacy-url]
+
 # generator-pypi-master 
 
 [![NPM](https://nodei.co/npm/generator-pypi-master.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/generator-pypi-master/)
@@ -69,6 +74,8 @@ MIT © [mijdavis2](https://mdavis.io)
 [npm-url]: https://npmjs.org/package/generator-pypi-master
 [travis-image]: https://travis-ci.org/mijdavis2/generator-pypi-master.svg?branch=master
 [travis-url]: https://travis-ci.org/mijdavis2/generator-pypi-master
+[coveralls-image]: https://coveralls.io/repos/mijdavis2/generator-pypi-master/badge.svg
+[coveralls-url]: https://coveralls.io/r/mijdavis2/generator-pypi-master
 [daviddm-image]: https://david-dm.org/mijdavis2/generator-pypi-master.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/mijdavis2/generator-pypi-master
 [codacy-image]: https://api.codacy.com/project/badge/Grade/56e02026555345a99f3e4479e3cce657

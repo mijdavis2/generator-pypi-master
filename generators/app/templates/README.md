@@ -1,3 +1,6 @@
+[![Build status][travis-image]][travis-url] 
+[![Coverage percentage][coveralls-image]][coveralls-url]
+
 # <%= packageName %>
 
 A pypi package.
@@ -31,3 +34,7 @@ py.test -v -s --cov-report term-missing --cov=<%= packageName %> -r w tests
 
 [<%= license %>](LICENSE) <%= year %> <%= username %>
 
+[travis-image]: https://travis-ci.org/<%= username %>/<%= packageName %>.svg?branch=master
+[travis-url]: https://travis-ci.org/<%= username %>/<%= packageName %>
+[coveralls-image]: https://coveralls.io/repos/<%= username %>/<%= packageName %>/badge.svg
+[coveralls-url]: https://coveralls.io/r/<%= username %>/<%= packageName %>

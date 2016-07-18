@@ -27,6 +27,10 @@
     "yosay": "^1.0.0"
   },
   "devDependencies": {
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3",
+    "mocha-lcov-reporter": "^1.2.0",
     "yeoman-test": "^1.0.0",
     "yeoman-assert": "^2.0.0",
     "eslint": "^2.1.0",

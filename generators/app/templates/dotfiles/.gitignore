@@ -11,3 +11,10 @@
 # IDE
 .idea/
 *.iml
+
+# Misc
+*logs/
+*cache
+.coverage
+coverage.xml
+*.orig
