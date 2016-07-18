@@ -1,8 +1,7 @@
 # Change Log
 
-## [Unreleased](https://github.com/mijdavis2/generator-pypi-master/tree/HEAD)
-
-[Full Changelog](https://github.com/mijdavis2/generator-pypi-master/compare/0.2.5...HEAD)
+## [0.2.6](https://github.com/mijdavis2/generator-pypi-master/tree/0.2.6) (2016-07-18)
+[Full Changelog](https://github.com/mijdavis2/generator-pypi-master/compare/0.2.5...0.2.6)
 
 **Merged pull requests:**
 
