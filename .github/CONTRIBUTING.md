@@ -1,5 +1,5 @@
 Requests for fixes or new features are welcome from the community. 
-Questions can be asked on the [issues page](https://github.com/<%= username %>/<%= packageName %>/issues). 
+Questions can be asked on the [issues page](https://github.com/mijdavis2/generator-pypi-master/issues). 
 Before creating a new issue, please take a moment to search and make sure a
 similar issue does not already exist.
 

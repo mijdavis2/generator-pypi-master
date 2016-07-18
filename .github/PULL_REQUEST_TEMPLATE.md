@@ -1,4 +1,4 @@
-## [Short description of PR here]
+## <!--Short description of PR here-->
 
 Issue:
 
@@ -10,17 +10,17 @@ Issue:
 
 ### What is this PR for?
 
-[What is the old behavior and what is new behavior?]
+<!--What is the old behavior and what is new behavior?-->
 
 
 ### How is it accomplished?
 
-[Technical details of what/how/why code was changed]
+<!--Technical details of what/how/why code was changed-->
 
 
 ### How can it be tested?
 
-[Behavioral results that can be tested by reviewer]
+<!--Behavioral results that can be tested by reviewer-->
 
 
 **Screenshots/gifs (if appropriate)**

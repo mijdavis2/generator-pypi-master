@@ -1,20 +1,20 @@
 ### Description
 
-[Description of the bug or suggested feature]
+<!--Description of the bug or suggested feature-->
 
 ### Steps to Reproduce
 
-1. [First Step]
-2. [Second Step]
-3. [Other Steps...]
+1. <!--First Step-->
+2. <!--Second Step-->
+3. <!--Other Steps...-->
 
 **Expected/Desired behavior:**
 
-[What you expected to happen]
+<!--What you expected to happen-->
 
 **Actual behavior:**
 
-[What actually happened]
+<!--What actually happened-->
 
 **Screenshots and GIFs**
 
