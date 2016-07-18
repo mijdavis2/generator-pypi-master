@@ -134,8 +134,9 @@ module.exports = yeoman.Base.extend({
       this._templateMap
     );
     this.fs.copyTpl(
-      this.templatePath('dotfiles/dot_gitignore'),
-      this.destinationPath('.gitignore')
+      this.templatePath('dotfiles/.*'),
+      this.destinationRoot(),
+      this._templateMap
     );
     if (this.answers.license) {
       this.fs.copyTpl(
