@@ -11,7 +11,12 @@ var plumber = require('gulp-plumber');
 gulp.task('static', function () {
   return gulp.src('**/*.js')
     .pipe(excludeGitignore())
-    .pipe(eslint())
+    .pipe(eslint({
+      rules: {
+        'new-parens' : 1,
+        'key-spacing': 1
+      }
+    }))
     .pipe(eslint.format())
     .pipe(eslint.failAfterError());
 });

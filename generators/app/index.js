@@ -4,9 +4,10 @@ var chalk = require('chalk');
 var yosay = require('yosay');
 
 module.exports = yeoman.Base.extend({
-  _defaultYear: function() {
+  _defaultYear: function () {
     return (new Date).getFullYear();
   },
+
   constructor: function () {
     yeoman.Base.apply(this, arguments);
     this.log(yosay(
@@ -14,66 +15,68 @@ module.exports = yeoman.Base.extend({
         chalk.yellow('You\'re using the definitive generator for scaffolding a pypi package!')
     ));
   },
+
   prompting: function () {
-    return this.prompt([{
-      type    : 'input',
-      name    : 'packageName',
-      message : 'Your project name: ',
-      default : this.appname // Default to current folder name
+    return this.prompt([
+      {
+        type   : 'input',
+        name   : 'packageName',
+        message: 'Your project name: ',
+        default: this.appname // Default to current folder name
       },
       {
-        type    : 'input',
-        name    : 'packageDescription',
-        message : 'A description of your package: '
+        type   : 'input',
+        name   : 'packageDescription',
+        message: 'A description of your package: '
       },
       {
-        type    : 'input',
-        name    : 'username',
-        message : 'Your github username: '
+        type   : 'input',
+        name   : 'username',
+        message: 'Your github username: '
       },
       {
-      type    : 'list',
-      name    : 'pythonVersion',
-      message : 'What minimum python version will you support?',
-      choices : [
-        {
-          "value": ["2","7","9"],
-          "name": "2.7.9"
-        },
-        {
-          "value": ["2","7","10"],
-          "name": "2.7.10"
-        },
-        {
-          "value": ["2","7","11"],
-          "name": "2.7.11"
-        },
-        {
-          "value": ["3","4","3"],
-          "name": "3.4.3"
-        },
-        {
-          "value": ["3","5","1"],
-          "name": "3.5.1"
-        }
-      ]
+        type   : 'list',
+        name   : 'pythonVersion',
+        message: 'What minimum python version will you support?',
+        choices: [
+          {
+            value: ['2', '7', '9'],
+            name : '2.7.9'
+          },
+          {
+            value: ['2', '7', '10'],
+            name : '2.7.10'
+          },
+          {
+            value: ['2', '7', '11'],
+            name : '2.7.11'
+          },
+          {
+            value: ['3', '4', '3'],
+            name : '3.4.3'
+          },
+          {
+            value: ['3', '5', '1'],
+            name : '3.5.1'
+          }
+        ]
       },
       {
-        name: 'license',
+        name   : 'license',
         message: 'Select license:',
-        type: 'list',
-        choices : [
+        type   : 'list',
+        choices: [
           {
-            "value": "MIT",
-            "name": "MIT"
+            value: 'MIT',
+            name : 'MIT'
           },
           {
-            "value": "ApacheV2",
-            "name": "Apache v2"
+            value: 'ApacheV2',
+            name : 'Apache v2'
           },
           {
-            "value": null,
-            "name": "None"
+            value: null,
+            name : 'None'
           }
         ]
       }
@@ -82,9 +85,9 @@ module.exports = yeoman.Base.extend({
       this.log('python version', answers.pythonVersion);
       this.answers = answers;
       if (this.answers.license) {
-        this.answers.includeLicense = "include LICENSE"
+        this.answers.includeLicense = 'include LICENSE';
       } else {
-        this.answers.includeLicense = ""
+        this.answers.includeLicense = '';
       }
     }.bind(this));
   },
@@ -124,7 +127,7 @@ module.exports = yeoman.Base.extend({
       this.templatePath('dotfiles/dot_gitignore'),
       this.destinationPath('.gitignore')
     );
-    if ( this.answers.license ) {
+    if (this.answers.license) {
       this.fs.copyTpl(
         this.templatePath('licenses/' + this.answers.license),
         this.destinationPath('LICENSE'),
@@ -132,11 +135,11 @@ module.exports = yeoman.Base.extend({
           year: this._defaultYear(),
           name: this.answers.username
         }
-      )
+      );
     }
   },
 
   install: function () {
-    //this.installDependencies();
+    // this.installDependencies();
   }
 });
