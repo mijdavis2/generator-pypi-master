@@ -51,6 +51,12 @@ package/
 |-- setup.sh
 ```
 
+## Test
+
+```
+npm test
+```
+
 ## License
 
 MIT © [mijdavis2](https://mdavis.io)
