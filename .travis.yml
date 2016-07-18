@@ -1,5 +1,5 @@
 language: node_js
 node_js:
-  - v6
-  - v5
-  - "4.4"
+  - "6"
+  - "5"
+  - "4.4.7"
