@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.2.7](https://github.com/mijdavis2/generator-pypi-master/tree/0.2.7) (2016-07-19)
+[Full Changelog](https://github.com/mijdavis2/generator-pypi-master/compare/0.2.6...0.2.7)
+
 ## [0.2.6](https://github.com/mijdavis2/generator-pypi-master/tree/0.2.6) (2016-07-18)
 [Full Changelog](https://github.com/mijdavis2/generator-pypi-master/compare/0.2.5...0.2.6)
 
