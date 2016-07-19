@@ -70,6 +70,12 @@ package/
 npm test
 ```
 
+## Contribute
+
+Go [here](https://github.com/mijdavis2/generator-pypi-master/issues)
+to submit feature suggestions or report a bugs. Pull requests are also
+welcome.
+
 ## License
 
 MIT © [mijdavis2](https://mdavis.io)
