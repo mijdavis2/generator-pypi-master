@@ -14,14 +14,18 @@
 
 Generate a new custom pypi package in seconds.
 
-There are other pypi generators out there 
-but they are either incomplete or do literally nothing.
-This one creates a nice customized standard pypi package 
-in a user friendly way.
+**For a simpler python project - check out [generator-pyboot](https://github.com/mijdavis2/generator-pyboot).**
 
-For a simpler python project - check out [generator-pyboot](https://github.com/mijdavis2/generator-pyboot).
+## Features
 
-**BONUS**: includes a setup script for easy virtualenv setup.
+- Populated setup.py ready for pypi publishing
+- Easy virtualenv setup script
+- Pre-badged README.md
+- Travis-Ci yml setup with suggested testing
+- Gitignore with the usual suspects
+- Pre-populated requirements.txt
+- License generator
+- Github feature templates
 
 ## Installation
 
@@ -51,6 +55,7 @@ package/
 |    |-- core.py
 |    |-- tests/
 |        |-- __init__.py
+|-- CHANGELOG.md
 |-- LICENSE 
 |-- MANIFEST.in
 |-- README.md

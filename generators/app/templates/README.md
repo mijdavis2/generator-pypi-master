@@ -3,11 +3,11 @@
 
 # <%= packageName %>
 
-A pypi package.
+<%= packageDescription %>
 
 ## Requirements
 
-- Python <%= reqMajor %>.<%= reqMinor %>,<%= reqPatch %>
+- Python <%= reqMajor %>.<%= reqMinor %>.<%= reqPatch %>+
 
 ## Install
 
@@ -17,11 +17,12 @@ pip install git@github.com:<%= username %>/<%= packageName %>.git#egg=<%= packag
 
 ## Develop
 
-This package comes with [mijdavis2's](httpe://github.com/mijdavis2) setup.sh script which swiftly
-creates a virtualenv without the hassle of virtualenv wrapper:
+This package comes with a setup.sh script which swiftly
+creates a virtualenv and installs dependencies from requirements.txt
+without the hassle of virtualenv wrapper:
 
 ```
-. ./setup.sh -p python<%= reqMajor %>.<%= reqMinor %>,<%= reqPatch %>
+. ./setup.sh -p python<%= reqMajor %>.<%= reqMinor %>.<%= reqPatch %>
 ```
 
 ## Test
